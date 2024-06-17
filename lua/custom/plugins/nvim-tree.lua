@@ -9,7 +9,11 @@ return {
     require('nvim-tree').setup {
       view = {
         relativenumber = true,
-        number = true,
+        adaptive_size = true,
+      },
+      git = {
+        enable = true,
+        ignore = false,
       },
     }
   end,
